@@ -1,9 +1,9 @@
 var canvas = document.getElementById('myCanvas');
     ctx = canvas.getContext("2d");
-var rover_height = 100;
-var rover_width = 100;
-var background_image = "airplanesky.jpg";
-var rover_image = "ekagraairlineplane.png";
+var rover_height = 50;
+var rover_width = 90;
+var background_image = "airplanesky.avif";
+var rover_image = "aeroplane.png";
 var rover_x = 20;
 var rover_y = 20;
 

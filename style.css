@@ -1,5 +1,5 @@
 body{
-	background-image: url("airportimgbckgrd.jpg");
+	background-image: url("airportbg.jpeg");
     background-position: center;
     background-size: cover;
 }
@@ -10,7 +10,18 @@ body{
 	border-style:ridge;
 }
 
-h1,h4
+h1
 {
-	color: white !important;
+    background-color: lavender;
+    border-style: dotted;
+    border-width: 0.2cm;
+    border-color: purple;
+}
+
+h4{
+    background: repeating-linear-gradient(yellow 0%, yellowgreen 50%, lime 100%);
+}
+
+h2{
+    background: repeating-linear-gradient(cyan 0%, turquoise 25%, aquamarine 50%, lightseagreen 75%, seagreen 100%);
 }
